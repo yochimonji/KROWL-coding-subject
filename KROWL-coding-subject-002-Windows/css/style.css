@@ -22,8 +22,37 @@
     left: 60px;
 }
 
+/* メイン */
+main {
+    background-color: #fffff3;
+}
+
+.intro {
+    text-align: center;
+    padding: 100px;
+}
+
+.intro__title {
+    font-size: 3.2rem;
+    font-weight: bolder;
+    line-height: 1.0;
+    padding-bottom: 50px;
+}
+
+.intro__text {
+    font-size: 1.6rem;
+}
+
 .photo-text-block {
     display: flex;
+}
+
+.photo-text-block > * {
+    width: 50%;
+}
+
+.photo-text-block:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 .photo-text-block__image {
