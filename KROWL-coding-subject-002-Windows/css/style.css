@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* 共通部分 */
+.common-inner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* ヘッダー */
+.page-header {
+    background-image: url(../images/bg-main_visual.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    padding-top: 40%;
+}
+
+.page-header__logo {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.photo-text-block {
+    display: flex;
+}
+
+.photo-text-block__image {
+    width: 480px;
+}
+
+.photo-text-block__text {
+    margin: 30px 20px;
+}
