@@ -27,6 +27,7 @@ main {
     background-color: #fffff3;
 }
 
+/* イントロ */
 .intro {
     text-align: center;
     padding: 100px;
@@ -42,6 +43,8 @@ main {
 .intro__text {
     font-size: 1.6rem;
 }
+
+/* 画像セクション */
 
 .photo-text-block {
     display: flex;
@@ -61,4 +64,29 @@ main {
 
 .photo-text-block__text {
     margin: 30px 20px;
+}
+
+/* 導入企業セクション */
+
+
+/* フッター */
+.page-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 18px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer__copyright {
+    font-size: 1.2rem;
+}
+
+.page-footer__link {
+}
+
+.page-footer__link a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 1.2rem;
 }
