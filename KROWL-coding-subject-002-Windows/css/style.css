@@ -2,8 +2,10 @@
 
 /* 共通部分 */
 .common-inner {
+    box-sizing: border-box;
     width: 960px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 /* ヘッダー */
@@ -44,7 +46,33 @@ main {
     font-size: 1.6rem;
 }
 
-/* 画像セクション */
+/* セクション */
+.section-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3.2rem;
+    line-height: 1.0;
+    padding: 100px 0 30px;
+}
+
+/* 使い方セクション */
+.usage-section {
+    background-image: url(../images/bg-content.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.usage-section__title {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.usage-section__inner {
+    background-color: #00000055;
+}
 
 .photo-text-block {
     display: flex;
@@ -59,11 +87,45 @@ main {
 }
 
 .photo-text-block__image {
-    width: 480px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.photo-text-block:nth-child(1) .photo-text-block__image {
+    background-image: url(../images/img-working.jpg);
+}
+
+.photo-text-block:nth-child(2) .photo-text-block__image {
+    background-image: url(../images/img-meeting_room.jpg);
+}
+
+.photo-text-block:nth-child(3) .photo-text-block__image {
+    background-image: url(../images/img-drip_machine.jpg);
+}
+
+.photo-text-block:nth-child(4) .photo-text-block__image {
+    background-image: url(../images/img-bar_w2.jpg);
 }
 
 .photo-text-block__text {
-    margin: 30px 20px;
+    background-color: #fffff3;
+    padding: 0 20px 40px 20px;
+    box-sizing: border-box;
+}
+
+.photo-text-block__text h3 {
+    font-size: 2.0rem;
+    font-weight: bolder;
+    line-height: 1.8;
+    padding: 40px 0 20px;
+}
+
+.photo-text-block__text p {
+    font-size: 1.6rem;
+    line-height: 1.8;
 }
 
 /* 導入企業セクション */
