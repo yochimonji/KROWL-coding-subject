@@ -1,5 +1,68 @@
 @charset "utf-8";
 
+/* ヘッダー */
+.page-header__inner {
+    background: url(../images/main_visual.jpg) center top no-repeat;
+    background-size: cover;
+    min-height: 480px;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    position: relative;
+}
+
+.page-header__title {
+    font-size: 3.6rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.page-header__title .black-belt {
+    background-color: #000;
+    padding: 5px 8px;
+}
+
+.windows .page-header__inner .black-belt {
+    padding: 2px 8px 0;
+}
+
+.page-header__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.page-header__campaign {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.page-header__campaign a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 5px solid #008DD5;
+    border-radius: 50%;
+    font-size: 2.4rem;
+    text-align: center;
+    color: #008DD5;
+    transition: 0.2s ease 0s;
+    transition-property: color, background-color;
+}
+
+.page-header__campaign a:hover {
+    color: #fff;
+    background-color: #008DD5;
+}
+
 /* 共通部分 */
 .common-inner {
     box-sizing: border-box;
