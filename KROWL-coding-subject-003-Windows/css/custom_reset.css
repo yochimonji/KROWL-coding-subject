@@ -22,3 +22,34 @@ h1, h2, h3, h4, h5, h6 {
 img {
   vertical-align: bottom;
 }
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  display: block;
+  outline: none;
+}
+
+select {
+  background-color: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+}
